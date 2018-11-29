@@ -1,0 +1,57 @@
+* {
+	box-sizing: border-box;
+}
+
+div#wrapper, footer {
+	margin: auto;	
+	width: 1055px;
+	background-color: rgb(251, 235, 235);
+	padding: 20px;
+}
+
+body {
+	font-family: "Arial, "sans serif"
+}
+
+nav {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+nav a {
+	margin-right: 20px;
+}
+
+section.apple {
+	width: 50%;
+	float: left;
+}
+
+section.images {
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+
+img.apple {
+	width: 511px;
+}
+
+img.football, img.book{
+	width: 100%;
+}
+
+section.articles {
+	float: left;
+}
+
+article {
+	display: inline-block;
+	width: 33%;
+	padding-right: 10px;
+	vertical-align: top;
+}
+
+article:last-child {
+	padding-right: 0px;
+}
