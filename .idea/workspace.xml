@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2deef2c-acd2-4746-809c-1f65c855e5dc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Opdracht7/trueMusic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Opdracht7/trueMusic.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Opdracht6/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Opdracht6/Login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Opdracht6/burton eductation.html" beforeDir="false" afterPath="$PROJECT_DIR$/Opdracht6/burton eductation.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,24 +13,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Opdracht6/Login.html">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Opdracht7/trueMusic.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="643">
-              <caret line="103" column="16" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
+            <state relative-caret-position="674">
+              <caret line="107" column="390" selection-start-line="107" selection-start-column="390" selection-end-line="107" selection-end-column="390" />
+              <folding>
+                <element signature="n#style#0;n#iframe#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Opdracht6/burton eductation.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Opdracht7/trueMusic.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="847">
-              <caret line="76" column="8" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
-              <folding>
-                <element signature="n#style#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -43,6 +43,11 @@
         <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>C:\Users\steve\OneDrive\Documenten\GitHub\HTML5\Opdracht7\img</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
@@ -58,6 +63,8 @@
         <option value="$PROJECT_DIR$/Opdracht6/Login.css" />
         <option value="$PROJECT_DIR$/Opdracht6/Login.html" />
         <option value="$PROJECT_DIR$/Opdracht6/burton eductation.html" />
+        <option value="$PROJECT_DIR$/Opdracht7/trueMusic.css" />
+        <option value="$PROJECT_DIR$/Opdracht7/trueMusic.html" />
       </list>
     </option>
   </component>
@@ -82,22 +89,13 @@
             <path>
               <item name="HTML5" type="b2602c69:ProjectViewProjectNode" />
               <item name="HTML5" type="462c0819:PsiDirectoryNode" />
-              <item name="Opdracht3" type="462c0819:PsiDirectoryNode" />
+              <item name="Opdracht7" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HTML5" type="b2602c69:ProjectViewProjectNode" />
               <item name="HTML5" type="462c0819:PsiDirectoryNode" />
-              <item name="Opdracht4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HTML5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HTML5" type="462c0819:PsiDirectoryNode" />
-              <item name="Opdracht5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HTML5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HTML5" type="462c0819:PsiDirectoryNode" />
-              <item name="Opdracht6" type="462c0819:PsiDirectoryNode" />
+              <item name="Opdracht7" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -110,13 +108,18 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543844196823" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543860865861" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\steve\OneDrive\Documenten\GitHub\HTML5" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -141,7 +144,7 @@
       <option name="presentableId" value="Default" />
       <updated>1543826209893</updated>
       <workItem from="1543826211750" duration="2046000" />
-      <workItem from="1543828396784" duration="11313000" />
+      <workItem from="1543828396784" duration="18074000" />
     </task>
     <task id="LOCAL-00001" summary="deleted footers">
       <created>1543829483883</created>
@@ -157,17 +160,24 @@
       <option name="project" value="LOCAL" />
       <updated>1543833085954</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="finished opdracht 6">
+      <created>1543844254553</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1543844254553</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13359000" />
+    <option name="totallyTimeSpent" value="20120000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18017058" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18390192" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -196,6 +206,36 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18017058" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32917964" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -203,7 +243,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="deleted footers" />
     <MESSAGE value="ik vind dat ik het heb afgerond. ik krijg het namelijk niet voor elkaar en ik houd niet van html" />
-    <option name="LAST_COMMIT_MESSAGE" value="ik vind dat ik het heb afgerond. ik krijg het namelijk niet voor elkaar en ik houd niet van html" />
+    <MESSAGE value="finished opdracht 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished opdracht 6" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Opdracht3/opdracht3.html">
@@ -226,13 +267,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Opdracht6/burton.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Opdracht6/Login.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -247,12 +281,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Opdracht6/burton.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Opdracht6/burton eductation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="847">
-          <caret line="76" column="8" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
+        <state relative-caret-position="405">
+          <caret line="54" column="22" lean-forward="true" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
           <folding>
             <element signature="n#style#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opdracht7/trueMusic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opdracht7/trueMusic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="674">
+          <caret line="107" column="390" selection-start-line="107" selection-start-column="390" selection-end-line="107" selection-end-column="390" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
