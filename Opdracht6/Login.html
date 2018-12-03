@@ -12,42 +12,50 @@
 			}
 			div.form-group {
 				padding: 2px;
+				width: 400px;
 			}
-			#insertion{
-			align: right; 
+			#tekstvak, #radio, #select, #checkbox, #date {
+				float: right;
 			}
+
 		</style>
 	</head>
 
 	<body>
-		<ul>
+		<div>
 			<div class = "headline">
 				<h2> Personal Information </h2>
 			</div>
 			<div class = "form-group">
 				<label for = "firstname"> First name: </label>
-				<input type = "text" name = "firstname">
+				<input id = "tekstvak" type = "text" name = "firstname">
 			</div>
-			<div class = "form-group" id= "insertion">
+			<div class = "form-group">
 				<label for = "insertion"> Insertion: </label>
-				<input type = "text" name = "insertion">
+				<input id = "tekstvak" type = "text" name = "insertion">
 			</div>
 			<div class = "form-group">
 				<label for = "lastname"> last name: </label>
-				<input type = "text" name = "lastname">
+				<input id = "tekstvak" type = "text" name = "lastname">
 			</div>
-			<div>
-				<label for = "sex"> sex: </label>
-				<input type = "radio" name = "sex" calue= "male">
-				&nbsp; Male
-				<input type = "radio" name = "sex" calue= "female">
-				&nbsp; Female
-				<input type = "radio" name = "sex" calue= "uncertain">
-				&nbsp; Uncertain
+			<div class = "form-group">
+				<label for = "sex" > sex: </label>
+					<div id = "radio" >
+						<input type = "radio" name = "sex" value= "male">
+						&nbsp; Male <br>
+					</div>
+					<div id = "radio" >
+						<input type = "radio" name = "sex" value= "female">
+						&nbsp; Female<br>
+					</div>
+					<div id = "radio">
+						<input type = "radio" name = "sex" value= "uncertain">
+						&nbsp; Unicorn
+					</div>
 			</div>
-			<div>
+			<div class = "form-group">
 				<label for ="eyecolor"> Eyecolor: </label>
-				<select name = "eyecolor">
+				<select id="select" name = "eyecolor">
 					<option> green </option>
 					<option> brown </option>
 					<option> gray </option>
@@ -56,22 +64,31 @@
 					<option> blue </option>
 				</select>
 			</div>
-			<div>
+			<div class = "form-group">
 				<label for = "Date-of-Birth"> Date of Birth:</label>
-				<date name = 
+				<input id = "date" type = "date">
 			</div>
-			<div>
+			<div class = "form-group">
 				<label for = "Food-you-like"> Food you like: </label>
-				<input type = "checkbox" name = "food-you-like" value = "fries">
-				<span class = "checkbox"> fries</span><br>
-				<input type = "checkbox" name = "food-you-like" value = "pancakes">
-				<span class = "checkbox"> Pancakes</span><br>
-				<input type = "checkbox" name = "food-you-like" value = "sausage">
-				<span class = "checkbox"> Sausage</span><br>
-				<input type = "checkbox" name = "food-you-like" value = "vegetables">
-				<span class = "checkbox"> vegetables</span>
+					<div id="checkbox">
+						<input type = "checkbox" name = "food-you-like" value = "fries">
+						<span class = "checkbox"> fries</span><br>
+					</div><br>
+					<div id="checkbox">
+						<input type = "checkbox" name = "food-you-like" value = "pancakes">
+						<span class = "checkbox"> Pancakes</span><br>
+					</div><br>
+					<div id="checkbox">
+						<input type = "checkbox" name = "food-you-like" value = "sausage">
+						<span class = "checkbox"> Sausage</span><br>
+					</div><br>
+					<div id="checkbox">
+						<input type = "checkbox" name = "food-you-like" value = "vegetables">
+						<span class = "checkbox"> vegetables</span>
+					</div>
 			</div>
-		</form>
+		</ul>
+		</div>
 	</body>
 </html>
 
