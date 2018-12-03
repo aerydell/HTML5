@@ -2,20 +2,35 @@
 
 <html>
 	<head>
-		<link rel = "stylesheet" href = "burton.css">
-		<meta charset = "UTF-8">
 		
 		<title> Burton Education </title>
 		<style>
+			.grid-container {
+				display: grid;
+				grid-template-columns: 225px 20px 155px ;
+				padding: 10px;
+			}
+			.newgrid {
+				display: grid;
+				grid-template-columns: 120px 300px;
+				height: 75px;
+			}
+			.buttongrid {
+				display: grid;
+				grid-template-columns: 300px 70px 50px;
+			}
 			div.headline {
 				padding: 20px;
 			}
 			div.form-group {
-				padding: 2px;
+				padding: 10px;
 				width: 400px;
 			}
-			#tekstvak, #radio, #select, #checkbox, #date {
+			#tekstvak, #radio, #select, #date {
 				float: right;
+			}
+			div.label {
+				width: 100px;
 			}
 
 		</style>
@@ -41,16 +56,16 @@
 			<div class = "form-group">
 				<label for = "sex" > sex: </label>
 					<div id = "radio" >
-						<input type = "radio" name = "sex" value= "male">
-						&nbsp; Male <br>
+						<input id="unicorn" type = "radio" name = "sex" value= "unicorn">
+						<label for="unicorn">Unicorn</label>
 					</div>
 					<div id = "radio" >
-						<input type = "radio" name = "sex" value= "female">
-						&nbsp; Female<br>
+						<input id="female" type = "radio" name = "sex" value= "female">
+						<label for="female">Female</label>
 					</div>
 					<div id = "radio">
-						<input type = "radio" name = "sex" value= "uncertain">
-						&nbsp; Unicorn
+						<input id="male" type = "radio" name = "sex" value= "male">
+						<label for="male">Male</label>
 					</div>
 			</div>
 			<div class = "form-group">
@@ -68,24 +83,29 @@
 				<label for = "Date-of-Birth"> Date of Birth:</label>
 				<input id = "date" type = "date">
 			</div>
-			<div class = "form-group">
-				<label for = "Food-you-like"> Food you like: </label>
-					<div id="checkbox">
-						<input type = "checkbox" name = "food-you-like" value = "fries">
-						<span class = "checkbox"> fries</span><br>
-					</div><br>
-					<div id="checkbox">
-						<input type = "checkbox" name = "food-you-like" value = "pancakes">
-						<span class = "checkbox"> Pancakes</span><br>
-					</div><br>
-					<div id="checkbox">
-						<input type = "checkbox" name = "food-you-like" value = "sausage">
-						<span class = "checkbox"> Sausage</span><br>
-					</div><br>
-					<div id="checkbox">
-						<input type = "checkbox" name = "food-you-like" value = "vegetables">
-						<span class = "checkbox"> vegetables</span>
-					</div>
+			<div class="grid-container">
+				<div>Food you like:</div>
+				<div><input id="fries" type="checkbox" name="food-you-like" value="fries"></div>
+				<div><label for="fries">Fries</label></div>
+				<div></div>
+				<div><input id="pancakes" type="checkbox" name="food-you-like" value="pancakes"></div>
+				<div><label for="pancakes">Pancakes</label></div>
+				<div></div>
+				<div><input id="sausage" type = "checkbox" name = "food-you-like" value = "sausage"></div>
+				<div><label for="sausage">Sausage</label></div>
+				<div></div>
+				<div><input id="vegetables" type = "checkbox" name = "food-you-like" value = "vegetables"></div>
+				<div><label for="vegetables">Vegetables</label></div>
+			</div>
+			<div class="newgrid">
+				<div class="label">Description:</div>
+				<textarea name="Omschrijving"></textarea>
+			</div>
+			<br>
+			<div class="buttongrid">
+				<div></div>
+				<div><input type="button" name="cancel" value="cancel"></div>
+				<div><input type="submit" name="OK" value="OK"></div>
 			</div>
 		</ul>
 		</div>
