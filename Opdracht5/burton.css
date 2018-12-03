@@ -2,20 +2,16 @@
 	box-sizing: border-box;
 }
 
-div#wrapper, footer {
+div#wrapper {
 	margin: auto;	
 	width: 1055px;
 	background-color: rgb(251, 235, 235);
 	padding: 20px;
-}
-#footer {
-	margin: auto;
-	width: 1055px;
-	background-color
+	height: 1100px;
 }
 
 body {
-	font-family: "Arial, "sans serif"
+	font-family: "Arial", sans-serif;
 }
 
 nav {
