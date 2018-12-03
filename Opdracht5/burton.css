@@ -8,6 +8,11 @@ div#wrapper, footer {
 	background-color: rgb(251, 235, 235);
 	padding: 20px;
 }
+#footer {
+	margin: auto;
+	width: 1055px;
+	background-color
+}
 
 body {
 	font-family: "Arial, "sans serif"
